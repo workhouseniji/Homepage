@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>ワークハウス虹</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<script src="assets/js/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript">
+		function ChangeTab(tabname) {
+			// タブメニュー実装
+			document.getElementById('tab1').style.display = 'none';
+			document.getElementById('tab2').style.display = 'none';
+			document.getElementById('tab3').style.display = 'none';
+			// タブメニュー実装
+			document.getElementById(tabname).style.display = 'block';
+		}
+	//</script>
+</head>
+<body>
+
+<div id="header">
+	<div id="header_in">
+		<h1><a href="#" title="Logo"><span class="hidden">logo</span></a></h1>
+		<ul>
+			<li><a href="green/index.html#sec5"><img src="assets/img/btn_inquiry.png" alt="お問い合わせ"></a></li>
+			<li><img src="assets/img/info.png"></li>
+		</ul>
+		<div class="tabbox">
+			<p class="tabs">
+    	        <a href="index.html" class="tab1" onclick="ChangeTab('tab1'); return false;">HOME</a>
+        	    <a href="green/index.html" class="tab2" onclick="ChangeTab('tab2'); return false;">ワークハウス虹について</a>
+         	    <a href="blue/index.html" class="tab3" onclick="ChangeTab('tab3'); return false;">作業紹介</a>
+        	</p>
+		</div>
+	</div>
+</div>
+
+<div id="contents">
+	<div id="main2">
+		<h2 id="sec1">お知らせ</h2>
+		<div id="infomation">
+			<h3 id="date">2020.04.08</h3>
+			<div id="desc">
+				<p>
+					コロナウィルス感染防止のため、<br>
+					自粛期間中は開所時間を9時～15時とさせていただきます。<br>
+				</p>
+			</div>
+		</div>
+		<div id="infomation">
+			<h3 id="date">2020.04.01</h3>
+			<div id="desc">
+				<p>
+					ワークハウス虹の公式ホームページを開設致しました。<br>
+					<br>
+					施設紹介をはじめ、各種イベント情報等、様々な情報を発信していく予定です。<br>
+					どうぞよろしくお願いいたします。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<p id="copyright">Copyright &copy; 2020 WorkHouseNiji All Rights Reserved.</p>
+</div>
+
+</body>
+</html>

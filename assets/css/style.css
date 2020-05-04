@@ -1,0 +1,257 @@
+body{  
+	margin: 0;  
+	line-height: 150%; 
+	background: #f2eadf url(../img/bg_main.jpg);
+	color:#543939;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	font-size:90%;
+}
+
+a {
+	text-decoration: none;
+	color:#543939;
+}
+
+img {
+	border:none;
+}
+
+h1 {
+	padding:0;
+	margin:0;
+}
+ul {
+	padding:0;
+	margin:0;
+	list-style: none;	
+}
+
+
+h1 a {
+	width:335px;
+	height:200px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+	margin:0;
+}
+
+h2 {
+	border-left: 8px solid #C1272D;
+	padding-left:15px;
+	line-height: 180%;
+}
+
+/* ヘッダーエリア */
+div#header {  
+	width: 100%;  
+	height: 175px;  
+	padding:15px 0;  
+	background-color: #fff; 
+	color: #fff; 
+	border-top:5px solid #0074e8;
+	border-bottom:5px solid #F5BC00;
+}
+
+div#header_in {
+	width: 980px;
+	position: relative;
+	margin:0 auto;
+}
+
+div#header_in ul {
+	margin:0 0 0 350px;
+	padding:8px;
+	position:absolute;
+	top:5px;
+	right:0px;
+	line-height: 0;
+}
+
+div#header_in ul li {
+	float:left;
+	margin-right:20px;
+}
+
+div#header_in ul li:last-child {
+	margin:0;
+}
+
+/* タブメニュー */
+div.tabbox {
+	padding: 0px; 
+	width:580px; 
+	height:100px;
+	top: 150px;
+	left: 400px;
+	position: absolute;
+}
+
+/* ▼ タブ部分のマージンとパディング領域を設定 */
+p.tabs { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+p.tabs a {
+	/* ▼ リンクをタブのように見せる */
+	display: block;
+	width: 180px;
+	height: 31px;
+	float: left;
+	margin: 0px 3px 0px 0px;
+	padding: 3px;
+	text-align: center;
+	font-size:15px;
+}
+
+/* ▼ タブごとの配色設定 */
+p.tabs a.tab1 {
+	text-decoration:none;
+	background-color:#fafafa;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-top: 3px solid rgba(170, 0, 0, 0.85);
+	color: #666; font-weight:600;
+}
+
+p.tabs a.tab2 {
+	text-decoration:none;
+	background-color:#fafafa;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-top: 3px solid rgba(0, 170, 0, 0.85);
+	color: #666; font-weight:600;
+}
+p.tabs a.tab3 {
+	text-decoration:none;
+	background-color:#fafafa;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-top: 3px solid rgba(0, 0, 170, 0.85);
+	color: #666; font-weight:600;
+}
+
+div.tab {
+	/* ▼ ボックス共通の装飾 */
+	height: 270px; 
+	clear: left;
+}
+
+/* ▼ 各ボックスの配色設定 */
+div#tab1 {
+	border: 2px solid #DDD;
+	background-color: #fbfbfb;
+}
+
+div#tab2 { 
+	border: 2px solid #DDD;
+	background-color: #fbfbfb;
+}
+
+div#tab3 {
+	border: 2px solid #DDD;
+	background-color: #fbfbfb;
+}
+
+div.tab p { 
+	margin: 0.5em;
+}
+
+p.tabs a:hover {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+/* フッターエリア */
+div#footer {  
+	width: 100%;  
+	height: 40px;  
+	padding:0 0 15px;
+	background-color: #51a8ff;
+	border-top:5px solid #0074e8;
+	color: #ffffff;
+	text-align:center;
+
+}
+
+/* コンテンツエリア */
+div#contents{
+	padding: 20px 0;
+	margin: 0 auto ;
+	width: 980px;
+	_zoom: 1;  
+    overflow: hidden; 	
+}
+
+/* コンテンツエリア　：　メインコンテンツ */
+div#main2 {
+	width: 900px;
+	float: right;
+	background: #FFF;
+	padding:10px 40px;
+	box-shadow: 0 0 18px -8px #66666F;
+	position: relative;
+}
+
+/* コンテンツエリア　：　メインコンテンツ */
+div#main {
+	width: 647px;
+	float: right;
+	background: #FFF;
+	padding:10px 40px;
+	box-shadow: 0 0 18px -8px #66666F;
+	position: relative;
+}
+/* コンテンツエリア　：　サイドナビ*/
+div#side {
+	width: 230px;
+	float: right;
+	background: #95684D;
+	box-shadow: 0 0 18px -8px #66666F;
+	padding-bottom:5px;
+	position: fixed;
+}
+
+/* おしらせ */
+div#infomation {
+	border-bottom:1px dotted #95684D;
+}
+
+/* メイン　文章 */
+div#desc {
+	width:650px;
+	min-height: 120px;
+}
+
+/* サイドナビ　：　メニュー部分 */
+ul#navi li p {
+	width: 200px;
+	height:30px;
+	background: #fff url(../img/arrow01.png) no-repeat left center;
+	background-position:5px;
+	padding: 13px 0 0 30px;
+	margin:0;
+	font-size: 90%;
+	cursor: pointer;
+	border-top:1px dotted #95684D;
+}
+
+/* サイドナビ　カーソルホバー */
+ul#navi li p:hover{
+	color: #da3c41;
+}
+
+div#side strong {
+	font-size: 120%;
+}
+
+.hidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
