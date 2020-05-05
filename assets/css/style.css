@@ -223,6 +223,11 @@ div#desc {
 	min-height: 120px;
 }
 
+/* メイン　文章 */
+div#desc2 {
+	min-height: 120px;
+}
+
 /* サイドナビ　：　メニュー部分 */
 ul#navi li p {
 	width: 200px;
